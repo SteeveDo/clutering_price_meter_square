@@ -81,6 +81,7 @@ conf = {
             -All the fields needed to make the merge key were present in the 2 dataframes
             
             -The distributions of each district contained too much outliers( 1 Million per M2)
+			
             -The observation of some prices on internet showed that we can have some prices between 7000€ and 50000€
         
 ### 3-Define the target
