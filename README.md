@@ -124,3 +124,10 @@ conf = {
 ### 9-Test the entire pipeline: Enter adress and get a prediction
         
         In the web interface some adresses were tested and prices predictions were displayed.
+    
+### 10-Insights to be more efficient
+        Get more data on 'Surface Carrez' to be more accurate
+        Fit a model that can be able to select the district before getting the neighbors (maybe using a filter on the top of prediction)
+        Get more data of the same timeframe to be more realistic
+        Instead of taking the average of the coordinates associated to a parcel maybe it would be more precise with the distance computation
+        
