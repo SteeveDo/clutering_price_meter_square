@@ -1,0 +1,7 @@
+pandas
+shapefile
+numpy
+scikit-learn
+pickle
+requests
+Flask

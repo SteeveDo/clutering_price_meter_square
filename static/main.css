@@ -1,0 +1,29 @@
+.error {
+    border: solid powderblue;
+    padding: 4px;
+    width: 600px;
+    text-align: center;
+    background-color: rgb(175, 1, 1);
+    color: white;
+    
+  }
+
+.success {
+  border: solid powderblue;
+  padding: 4px;
+  width: 600px;
+  text-align: center;
+  background-color: green;
+  color: white;
+}
+
+.underline {
+    border-bottom: solid 2px #474544;
+    margin:  auto;
+    width: 300px;
+  }
+
+  .prediction_text {
+    font-size: 20px;
+    padding: 20px;
+  }

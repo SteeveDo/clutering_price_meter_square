@@ -4,11 +4,18 @@ conf = {
     'path_transactional_data': "C:/Users/SD.HEUNAMBIAFENG/Downloads/valeursfoncieres-2020.txt",
 
     # Feature engineering configuration
-    'nombre_de_lot': 2,
-
-    # Prediction server configuration
-    'api_url': 'https://cfds.orm.eu.datarobot.com/predApi/v1.0/deployments/{deployment_id}/predictions',
-    'api_key': 'NjAwYWIwODQ0OTJlNzVjNTEyMWJiYWRkOnY1MWl1M1lRVEl5VGNOa0lRaFhVSE1FSFVwbDdyejFPZUt2bEgrRWJCODg9',
-    'datarobot_key': '35dde409-9091-697e-31f3-a9fd3b67842e',
-    'deployment_id': '6062044a71b4ad6e01a0008f',
+    'amount_of_lot': 2,
+    'cutoff_max_price':50000,
+    'cutoff_min_price':7000,
+    'perc_na':0.9,
+    'prepared_data_path':'C:/Users/SD.HEUNAMBIAFENG/Downloads/Leonard-test/Leonard-test/Data_prepared.csv',
+    # Training model configuration
+    'test_size': 0.1,
+    'random_state':49,
+    'setting_model_mode': 'auto',#To set your model by yourself put 'manual'
+    'neighbors': 70,
+    'metric': 'euclidean',
+    'weights':'distance',
+    'algorithm':'ball_tree',
+    'model_path': 'C:/Users/SD.HEUNAMBIAFENG/Downloads/Leonard-test/Leonard-test/Model_immobilier.pkl'
 }
