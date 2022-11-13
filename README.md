@@ -1,4 +1,4 @@
-# Leonard-test
+# Clustering of square meter prices in Paris
 
 ## Setup
 **Pre-requisites:**
